@@ -1,135 +1,330 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Silicon Valley QA — Mobile & AI Quality Engineering</title>
-<meta name="description" content="Mobile and AI QA consultant helping teams ship reliable software faster."/>
-<link rel="stylesheet" href="styles.css"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Erick Ramos — Mobile & AI Engineering</title>
+  <meta name="description" content="Mobile and AI QA Engineering leader. 10+ years across Google and Apple. Ships reliable products with measurable quality outcomes." />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <!-- Sticky Nav -->
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">Erick Ramos</span>
+      </a>
 
-<header class="nav">
-  <div class="container navInner">
-    <div class="logo">SiliconValleyQA</div>
-    <nav>
-      <a href="#services">Services</a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#highlights">Highlights</a>
+        <a href="#proof">Proof</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#certs">Credentials</a>
+      </nav>
+
+      <a class="btn btn--primary" href="#contact">Let’s Talk</a>
+
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="nav__mobile" hidden>
+      <a href="#highlights">Highlights</a>
       <a href="#proof">Proof</a>
-      <a href="#about">About</a>
-      <a href="#contact" class="cta">Contact</a>
-    </nav>
-  </div>
-</header>
-
-<section class="hero">
-  <div class="container heroGrid">
-    <div>
-      <h1>I help mobile & AI teams ship reliable products.</h1>
-      <p class="subtitle">
-        QA strategy, automation, and AI testing for companies that treat quality as a competitive advantage.
-      </p>
-
-      <div class="actions">
-        <a href="#contact" class="btnPrimary">Start a conversation</a>
-        <a href="#proof" class="btnGhost">See proof</a>
-      </div>
-
-      <div class="badges">
-        <span>Mobile QA</span>
-        <span>AI Testing</span>
-        <span>Automation</span>
-        <span>Release Readiness</span>
-      </div>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#certs">Credentials</a>
+      <a href="#contact" class="nav__mobileCta">Let’s Talk</a>
     </div>
-  </div>
-</section>
+  </header>
 
-<section id="services" class="section light">
-  <div class="container">
-    <h2>What I Do</h2>
+  <main id="top">
+    <!-- HERO (<= 90 words) -->
+    <section class="hero section">
+      <div class="wrap hero__grid">
+        <div>
+          <p class="kicker reveal">Mobile QA • SDET • AI/ML QA</p>
 
-    <div class="grid3">
-      <div class="card">
-        <h3>Mobile QA Systems</h3>
-        <p>End-to-end testing for iOS & Android, device coverage strategy, exploratory testing, and release gating.</p>
+          <h1 class="hero__title reveal">
+            Mobile + AI quality engineering that ships with confidence.
+          </h1>
+
+          <p class="hero__sub reveal">
+            I’m a QA engineering leader with 10+ years across top tech—specialized in mobile testing,
+            automation strategy, and AI components of voice assistants (Google, Siri, Alexa).
+          </p>
+
+          <div class="hero__actions reveal">
+            <a class="btn btn--primary" href="#contact">Contact</a>
+            <a class="btn btn--ghost" href="assets/Erick_Ramos_Resume.pdf" target="_blank" rel="noopener">
+              Download Resume
+            </a>
+          </div>
+
+          <div class="hero__meta reveal" aria-label="Quick strengths">
+            <span class="chip">Mobile test strategy</span>
+            <span class="chip">Stable automation</span>
+            <span class="chip">AI robustness</span>
+          </div>
+        </div>
+
+        <aside class="hero__aside reveal" aria-label="Snapshot">
+          <div class="card card--soft">
+            <h2 class="card__title">Recruiter snapshot</h2>
+            <ul class="mini">
+              <li><span>Google:</span> accelerated power testing by <strong>85%</strong> (7+ days → 48 hours)</li>
+              <li><span>Labs:</span> stabilized firmware across <strong>130+</strong> devices</li>
+              <li><span>Apple:</span> Python tool <strong>tripled</strong> Radar bug submissions</li>
+            </ul>
+            <p class="tiny">
+              Open to Mobile QA, SDET, AI/ML QA, and Test Engineer roles.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHTS (<= 90 words) -->
+    <section id="highlights" class="section">
+      <div class="wrap">
+        <div class="head reveal">
+          <h2>Highlights</h2>
+          <p>Measurable outcomes that translate to faster, safer releases.</p>
+        </div>
+
+        <div class="grid3">
+          <article class="card reveal">
+            <h3>85% faster cycles</h3>
+            <p>Implemented Android power test strategy at Google, cutting cycles from 7+ days to 48 hours.</p>
+          </article>
+
+          <article class="card reveal">
+            <h3>130+ devices stable</h3>
+            <p>Led lab maintenance via tooling and process to keep firmware stable across 130+ devices.</p>
+          </article>
+
+          <article class="card reveal">
+            <h3>3× bug throughput</h3>
+            <p>Built a Python tool to automate Radar submissions at Apple—tripling bug count and collaboration.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROOF (<= 90 words) -->
+    <section id="proof" class="section section--alt">
+      <div class="wrap">
+        <div class="head reveal">
+          <h2>Proof of capability</h2>
+          <p>How I raise signal, reduce risk, and protect user experience.</p>
+        </div>
+
+        <div class="grid3">
+          <article class="card reveal">
+            <h3>Mobile QA</h3>
+            <p class="muted">Release readiness, device/OS strategy, and high-signal regression.</p>
+            <ul class="bullets">
+              <li>Risk-based coverage</li>
+              <li>Exploratory + triage</li>
+              <li>Go/No-Go criteria</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Automation</h3>
+            <p class="muted">CI-friendly suites built for stability and trust.</p>
+            <ul class="bullets">
+              <li>Flake reduction</li>
+              <li>Fast smoke gates</li>
+              <li>Actionable reporting</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>AI testing</h3>
+            <p class="muted">Voice assistant quality across multilingual + adversarial scenarios.</p>
+            <ul class="bullets">
+              <li>Robustness checks</li>
+              <li>Bias probing</li>
+              <li>Localization validation</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE (<= 90 words per entry; overall stays scannable) -->
+    <section id="experience" class="section">
+      <div class="wrap">
+        <div class="head reveal">
+          <h2>Professional experience</h2>
+          <p>Condensed timeline with the work that moves the needle.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="role reveal">
+            <div class="role__top">
+              <h3>Senior Test Engineer — Google (via TechMahindra)</h3>
+              <span class="role__meta">May 2019 – Present</span>
+            </div>
+            <ul class="bullets">
+              <li>Drove Android power data collection with staff engineers for exec release decisions.</li>
+              <li>Accelerated power testing by 85% (7+ days → 48 hours) through strategy + execution.</li>
+              <li>Stabilized lab firmware across 130+ devices via tooling and maintenance leadership.</li>
+            </ul>
+          </div>
+
+          <div class="role reveal">
+            <div class="role__top">
+              <h3>Software QA Engineer — Apple (via WeLocalize)</h3>
+              <span class="role__meta">May 2018 – May 2019</span>
+            </div>
+            <ul class="bullets">
+              <li>Led QA for localization of Siri ML models across iPhone, HomePod, and Apple TV.</li>
+              <li>Improved Spanish SR/TTS release readiness; built Python automation that tripled Radar bugs.</li>
+              <li>Partnered with Marketing to validate demo readiness prior to press events.</li>
+            </ul>
+          </div>
+
+          <div class="role reveal">
+            <div class="role__top">
+              <h3>Software QA Engineer — Kyocera Document Solutions</h3>
+              <span class="role__meta">May 2015 – May 2018</span>
+            </div>
+            <ul class="bullets">
+              <li>Founded mobile testing team for printing apps across iOS/Android/Microsoft platforms.</li>
+              <li>Built wireless automation using Appium + Jenkins on Selenium Grid, reducing manpower ~15%.</li>
+              <li>Shipped Jira automation to accelerate bug reporting and shorten time-to-fix.</li>
+            </ul>
+          </div>
+
+          <div class="role reveal">
+            <div class="role__top">
+              <h3>Software QA Engineer — RF Spot Inc</h3>
+              <span class="role__meta">May 2014 – Nov 2015</span>
+            </div>
+            <ul class="bullets">
+              <li>Tested machine-vision robotics processing ~60K RFID tags for inventory logistics.</li>
+              <li>Doubled battery lifetime and performance by automating navigation routes for data capture.</li>
+            </ul>
+          </div>
+
+          <div class="role reveal">
+            <div class="role__top">
+              <h3>AI Test Consultant — Google / Meta / Amazon (via uTest)</h3>
+              <span class="role__meta">Oct 2024 – Present</span>
+            </div>
+            <ul class="bullets">
+              <li>System testing for Google Assistant on Nest Hub across multiple domains.</li>
+              <li>Validated Alexa multilingual capabilities; evaluated Meta Quest AI vision systems.</li>
+              <li>Performed adversarial chatbot testing to probe bias and failure modes.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS (<= 90 words) -->
+    <section id="skills" class="section section--alt">
+      <div class="wrap">
+        <div class="head reveal">
+          <h2>Skills</h2>
+          <p>Built for mobile velocity and AI uncertainty.</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card reveal">
+            <h3>Focus areas</h3>
+            <div class="chips">
+              <span class="chip">Mobile testing</span>
+              <span class="chip">AI/assistant QA</span>
+              <span class="chip">Automation strategy</span>
+              <span class="chip">Release readiness</span>
+              <span class="chip">Localization QA</span>
+              <span class="chip">Test leadership</span>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <h3>Tools & methods</h3>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">Appium</span>
+              <span class="chip">Jenkins</span>
+              <span class="chip">Selenium Grid</span>
+              <span class="chip">Android power testing</span>
+              <span class="chip">Firmware validation</span>
+            </div>
+            <p class="tiny">Swap/expand tools only if they match your current stack.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTS + EDUCATION (<= 90 words) -->
+    <section id="certs" class="section">
+      <div class="wrap">
+        <div class="head reveal">
+          <h2>Certifications & education</h2>
+          <p>Credentials that align with modern QA and AI quality.</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card reveal">
+            <h3>Certifications</h3>
+            <ul class="bullets">
+              <li>ASTQB: Mobile and Agile Test Specialist</li>
+              <li>ASTQB: Certified Artificial Intelligence Tester</li>
+              <li>Machine Learning & AI Specialization (2025)</li>
+            </ul>
+          </div>
+
+          <div class="card reveal">
+            <h3>Education</h3>
+            <ul class="bullets">
+              <li>BS Electrical Engineering — CSU Chico (3.8 GPA)</li>
+              <li>AS Computer Engineering</li>
+              <li>AS Computer Science</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT (<= 90 words) -->
+    <section id="contact" class="section section--alt">
+      <div class="wrap contact reveal">
+        <h2>Let’s build quality that scales.</h2>
+        <p>
+          If you’re shipping mobile apps or AI assistant experiences, I can help you de-risk releases,
+          increase signal, and move faster without sacrificing user trust.
+        </p>
+
+        <div class="contact__actions">
+          <a class="btn btn--primary" href="mailto:erickracu@gmail.com?subject=Interview%20-%20Mobile%20%2B%20AI%20QA">
+            Email Erick
+          </a>
+          <a class="btn btn--ghost" href="https://github.com/siliconvalleyqa" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn--ghost" href="#" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+
+        <p class="tiny">Tip: replace the LinkedIn “#” link with your real profile.</p>
       </div>
 
-      <div class="card">
-        <h3>Automation That Scales</h3>
-        <p>CI-ready frameworks focused on stability, signal-to-noise ratio, and developer trust.</p>
-      </div>
+      <footer class="wrap footer">
+        <span>© <span id="year"></span> Erick Ramos</span>
+        <span class="sep">•</span>
+        <span>Mobile QA • SDET • AI/ML QA</span>
+      </footer>
+    </section>
+  </main>
 
-      <div class="card">
-        <h3>AI & Assistant Testing</h3>
-        <p>Metamorphic testing, robustness evaluation, localization, and safety-focused AI quality strategies.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="proof" class="section">
-  <div class="container">
-    <h2>Why Teams Work With Me</h2>
-
-    <div class="grid3">
-
-      <div class="stat">
-        <h3>10+ yrs</h3>
-        <p>QA experience across fast-moving teams</p>
-      </div>
-
-      <div class="stat">
-        <h3>AI Certified</h3>
-        <p>ISTQB AI Testing</p>
-      </div>
-
-      <div class="stat">
-        <h3>Mobile First</h3>
-        <p>Deep mobile quality focus</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section id="about" class="section light">
-  <div class="container narrow">
-    <h2>How I Work</h2>
-    <p>
-      I embed with teams to uncover real risk, stabilize release pipelines, and design test systems
-      that move as fast as product development.
-    </p>
-
-    <p>
-      My background spans Fortune-500 environments, AI systems, mobile platforms, and agile delivery —
-      giving leaders confidence to ship.
-    </p>
-  </div>
-</section>
-
-<section id="contact" class="section contact">
-  <div class="container narrow">
-    <h2>Let’s Talk</h2>
-    <p>
-      If your team is scaling mobile apps or shipping AI features — let’s see how I can help.
-    </p>
-
-    <div class="contactBox">
-      <a href="mailto:you@email.com" class="btnPrimary">Email me</a>
-      <a href="https://github.com/siliconvalleyqa" class="btnGhost">GitHub</a>
-      <a href="https://www.linkedin.com" class="btnGhost">LinkedIn</a>
-    </div>
-  </div>
-</section>
-
-<footer class="footer">
-  © <span id="year"></span> SiliconValleyQA
-</footer>
-
-<script>
-document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-
+  <script src="script.js"></script>
 </body>
 </html>
